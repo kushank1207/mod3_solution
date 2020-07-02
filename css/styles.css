@@ -1,0 +1,47 @@
+#navbar-brand {
+  font-size: 2rem;
+}
+
+#tab {
+  background-color: darkgrey;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+#navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+}
+
+.container-fluid {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.navbar-toggler:hover, .navbar-toggler:focus {
+  background-color: darkgrey;
+}
+
+li {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  button {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  li {
+    display: none;
+  }
+}
